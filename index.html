@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <script src="https://kit.fontawesome.com/d38b8b934b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to our Website</h1>
+            <h2 class="catchphrase">
+            Ignite Your Imagination, Innovate Your Future
+            </h2>
+            <a href="" class="btn">Get Started </a>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1>About Our Founder</h1>
+                    <p>As the founder of our company, I am driven by a relentless passion for innovation and a commitment to pushing boundaries. With a vision to revolutionize the industry, I embarked on this journey with a clear purpose: to empower businesses with cutting-edge solutions that propel them towards success. Backed by years of experience and a team of dedicated professionals, we strive to redefine standards and create a future where possibilities are limitless. Join us on this exciting adventure, and let's shape the future together.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="card">
+                    <div class="image-section">
+                    <img src="images/ceo.jpeg"/>
+                    </div>
+                    <div class="content">
+                        <h3> John Smith </h3>
+                        <h4>Chief Executive Officer (CEO)</h4>
+                        <p>John Smith, our visionary CEO, brings decades of leadership experience to the table. He is renowned for his strategic insights and forward-thinking approach, having led several successful ventures in the technology and innovation space. Under his guidance, our company has achieved remarkable growth and global recognition.</p>
+                    </div>
+                 </div>
+
+                <div class="card">
+                    <div class="image-section">
+                    <img src="images/coo.jpeg">
+                    </div>
+                    <div class="content">
+                        <h3> Emily Johnson </h3>
+                        <h4> Chief Technology Officer (CTO)</h4>
+                        <p>Emily Johnson, our esteemed CTO, is a tech wizard with a knack for turning ideas into reality. With a background in computer science and a passion for emerging technologies, she spearheads our research and development efforts. Emily's innovative solutions have propelled our company to the forefront of technological advancement..</p>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="image-section">
+                    <img src="images/cto.jpeg">
+                    </div>
+                    <div class="content">
+                        <h3> David Lee</h3>
+                        <h4>Chief Operations Officer (COO)</h4>
+                        <p> David Lee, our dynamic COO, is the driving force behind our operational excellence. With a proven track record in streamlining processes and optimizing efficiency, he ensures that our day-to-day operations run seamlessly. David's strategic acumen and dedication to excellence are instrumental in driving our company's success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="container">
+            <h1>Why Choose Us?</h1>
+            <div class="row">
+              <div class="service">
+                  <i class="fa-solid fa-laptop-code"></i>
+                  <h2>Web design</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                 <i class="fa-solid fa-chart-line"></i>
+                  <h2>Marketing</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                  <i class="fa-solid fa-palette"></i>
+                  <h2>Graphics</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                 <i class="fa-solid fa-chart-pie"></i>
+                  <h2>Data Analysis</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                 <i class="fa-solid fa-mobile-screen-button"></i>
+                  <h2>App development</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                 <i class="fa-solid fa-file-invoice"></i>
+                  <h2>Accounting</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                 <i class="fa-solid fa-id-badge"></i>
+                  <h2>Payroll</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-network-wired"></i>
+                  <h2>Networking</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="countdown-timer">
+        <div class="container">
+            <h2>Hurry! Only 10 Minutes Left</h2>
+            <div id="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes">10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <!-- Sign In Popup -->
+
+   <div class="login-popup">
+      <div class="box">
+            <div class="container" id="container">
+              <div class="form-container sign-up">
+                <form>
+                  <h1>Create Account</h1>
+                  <span>or use your email for registeration</span>
+                  <input type="email" placeholder="Email" id="email" required />
+                  <input type="text" placeholder="Phone No"  id="phone" required/>
+                  <input type="password" placeholder="Password" id="password" required />
+                  <button id="signUp" >Sign Up</button>
+                </form>
+              </div>
+              <div class="form-container sign-in">
+                <form>
+                  <h1>Sign In</h1>
+                  <span>or use your email password</span>
+                  <input type="email" placeholder="Email" />
+                  <input type="password" placeholder="Password" />
+                  <a href="#">Forget Your Password?</a>
+                  <button onclick="login()">Sign In</button>
+                </form>
+              </div>
+              <div class="toggle-container">
+                <div class="toggle">
+                <div class="close"> &times; </div>
+                  <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                  </div>
+                  <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>
+                      Register with your personal details to use all of site features
+                    </p>
+                    <button class="hidden" id="register">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+     </div>
+   </div>
+
+
+  
+
+  <button style="visibility: hidden;" id="scrollToTopBtn" class="scroll-to-top">Scroll to Top</button>
+
+<script src="script.js"></script>
+   
+
+ 
+
+</body>
+ <!-- Firebase SetUp -->
+
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"
+ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+ 
+ const firebaseConfig = {
+    apiKey: "AIzaSyBRnxXawqyd157EJTUi43fnst-UAeMRAdg",
+    authDomain: "auth-form-db6a2.firebaseapp.com",
+    projectId: "auth-form-db6a2",
+    storageBucket: "auth-form-db6a2.appspot.com",
+    messagingSenderId: "471871996578",
+    appId: "1:471871996578:web:f8a894924c15578a6b0dfb"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+
+        
+        signUp.addEventListener('click',(e) =>{
+           const email = document.getElementById('email').value;
+           const phone = document.getElementById('phone').value;
+           const password= document.getElementById('password').value;
+                //Validate input fields
+            createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+             const user = userCredential.user;
+                  alert('User created!');
+                  // Optionally, you can add the user's phone number to the database
+                  // or perform other actions here.
+                })
+                .catch((error) => {
+                  const errorCode = error.code;
+                  const errorMessage = error.message;
+                  console.error(error);
+                  alert(errorMessage);
+                });
+
+            });
+               
+ </script>
+</html>
+
+
